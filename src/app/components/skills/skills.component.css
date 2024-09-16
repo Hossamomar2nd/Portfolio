@@ -1,0 +1,19 @@
+/* Container for the skills section */
+.container-fluid {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+    background-size: cover;
+    height: auto;
+  }
+  
+  .skills-section h2 {
+    font-size: 6rem;
+    margin-bottom: 50px;
+  }
+  .skills-section p{
+    font-size: 1.4rem;
+  }
+  

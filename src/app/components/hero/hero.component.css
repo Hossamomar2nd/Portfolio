@@ -1,0 +1,60 @@
+.profile-container {
+  align-items:center;
+  justify-content: left;
+  display: flex;
+  min-height: 100vh;
+  background-image: url(../../../../image/Hossam.png);
+  background-size: cover;
+  background-position: center;
+}
+.profile-content {
+  text-align: center;
+  color: rgb(10, 10, 10);
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.contact-btn {
+  padding: 10px 20px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: transparent;
+  color: rgb(15, 14, 14);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: black;
+}
+@media only screen and (max-width: 1024px) {
+   .profile-container {
+     background-size: 200%; 
+     background-position: right; 
+     background-repeat: no-repeat;
+     filter: brightness(50%);     
+   }
+   .profile-content{
+    color: white;
+   }
+   
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+ }
